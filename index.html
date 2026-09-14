@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Hide Dismissed LinkedIn Jobs</title>
+<style>
+  :root {
+    color-scheme: light dark;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem 4rem;
+    line-height: 1.6;
+    color: #1a1a1a;
+    background: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #121212; }
+    a { color: #6cb2ff; }
+  }
+  h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.25rem;
+  }
+  .updated {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    .updated { color: #a0a0a0; }
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin-top: 2rem;
+  }
+  ul {
+    padding-left: 1.25rem;
+  }
+  li {
+    margin-bottom: 0.5rem;
+  }
+</style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Hide Dismissed LinkedIn Jobs — Chrome Extension</p>
+
+  <p>
+    This extension is designed to be as privacy-preserving as possible. It runs entirely
+    within your browser and does not operate any external server.
+  </p>
+
+  <h2>What the extension does</h2>
+  <ul>
+    <li>It reads the LinkedIn job feed content that is already visible to you on the page in
+      order to display applicant counts and to enable sorting and filtering of job postings.</li>
+    <li>It stores your block/keep preferences locally in your browser using the
+      <code>chrome.storage</code> API, so your choices persist between visits.</li>
+  </ul>
+
+  <h2>What the extension does not do</h2>
+  <ul>
+    <li>It does not collect any personal data.</li>
+    <li>It does not transmit any data to a remote server.</li>
+    <li>It does not sell or share any data with third parties.</li>
+  </ul>
+
+  <h2>Data storage</h2>
+  <p>
+    All preferences and state created by this extension are stored locally on your device
+    via <code>chrome.storage</code> and are never sent anywhere. Uninstalling the extension
+    removes this locally stored data.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    If you have questions about this privacy policy, please open an issue on the extension's
+    GitHub repository.
+  </p>
+</body>
+</html>
